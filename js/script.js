@@ -51,7 +51,7 @@ btnAdd.addEventListener("click", ()=>{
 
         }
 
-        if( listaNumeros.length == 10 ){
+        if( listaNumeros.length == 10 ) {
             numero.style.cursor = "not-allowed"
             numero.setAttribute("readonly", null)
             btnAdd.style.cursor = "not-allowed"
